@@ -101,6 +101,7 @@ header {
 .hero-info p {
     color: white;
     max-width: 210px;
+    font-size: 14px;
 }
 
 .hero-info button {
