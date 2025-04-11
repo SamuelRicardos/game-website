@@ -272,6 +272,7 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate-gradient 2.5s linear infinite;
+    max-width: 250px;
 }
 
 .card p{
@@ -307,3 +308,17 @@ header {
     box-shadow: 0 0 15px lightgray;
     opacity: 0.7;
 }
+
+.card:hover{
+    box-shadow: 0 0 15px rgb(211, 211 , 211);
+}
+
+.card:nth-child(1) {
+    grid-column: span 2;
+}
+
+.card:nth-child(2) {
+    grid-row: span 2;
+    height: 83vh;
+}
+
