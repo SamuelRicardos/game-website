@@ -407,8 +407,10 @@ header {
 
 .footer ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
     list-style: none;
-    margin-right: 140px;
 }
 
 .footer a {
