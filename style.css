@@ -421,6 +421,12 @@ header {
     margin: 0 10px;
 }
 
+.stones-img{
+    position: absolute;
+    margin-top: 22%;
+    width: 500px;
+}
+
 .autoBlur {
     animation: autoBlurAnimation linear both;
     animation-timeline: view();
@@ -555,5 +561,9 @@ header {
         margin-left: 70px;
     }
 
+    .stones-img{
+        margin-top: 80%;
+        width: 400px;
+    }
 
 }
