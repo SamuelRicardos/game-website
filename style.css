@@ -1,17 +1,40 @@
+:root {
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #000000;
     scroll-behavior: smooth;
+    font-family: var(--font-secondary);
 }
 
 .container {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-secondary);
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.head-left button,
+.head-right a,
+.hero-info p,
+.hero-info button,
+.about-section p,
+.about-section h4,
+.about-section h5,
+.info-section h3,
+.info-section p,
+.card p,
+.card button,
+.contact-section p,
+.contact-section button,
+.footer p,
+.footer a {
+    font-family: var(--font-secondary);
 }
 
 header {
@@ -101,7 +124,7 @@ header {
 .hero-info p {
     color: white;
     max-width: 210px;
-    font-size: 14px;
+    font-size: 12.6px;
 }
 
 .hero-info button {
