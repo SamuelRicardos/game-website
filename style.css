@@ -5,7 +5,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.container{
+.container {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: flex;
@@ -28,7 +28,7 @@ header {
     backdrop-filter: blur(10px);
 }
 
-.head-left{
+.head-left {
     display: flex;
     align-items: center;
 }
@@ -48,7 +48,7 @@ header {
     transition: 0.3s;
 }
 
-.head-left button:hover{
+.head-left button:hover {
     opacity: 0.7;
 }
 
@@ -56,40 +56,40 @@ header {
     display: flex;
 }
 
-.head-right a{
+.head-right a {
     text-decoration: none;
     padding-left: 25px;
-    color:white;
+    color: white;
     font-size: 15px;
 }
 
-.hero-section{
+.hero-section {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.hero-vid{
+.hero-vid {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-.hero-video{
+.hero-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.hero-info{
+.hero-info {
     z-index: 1;
     position: absolute;
     top: 80px;
     left: 50px;
 }
 
-.hero-info h1{
+.hero-info h1 {
     font-size: 120px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
@@ -113,13 +113,13 @@ header {
     transition: 0.3s;
 }
 
-.hero-info button:hover{
+.hero-info button:hover {
     background-color: transparent;
     color: white;
     box-shadow: 0 0 15px #edff66;
 }
 
-.gaming-text{
+.gaming-text {
     font-size: 120px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
@@ -128,7 +128,7 @@ header {
     bottom: 30px;
 }
 
-.next-btn{
+.next-btn {
     width: 200px;
     height: 200px;
     background-color: #edff66;
@@ -148,14 +148,14 @@ header {
     transition: 0.5s;
 }
 
-.next-btn:hover{
+.next-btn:hover {
     width: 200px;
     height: 200px;
     opacity: 1;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.616);
 }
 
-.about-section{
+.about-section {
     width: 100%;
     height: 100%;
     margin-top: 200px;
@@ -165,7 +165,7 @@ header {
     color: white;
 }
 
-.image-box{
+.image-box {
     width: 360px;
     height: 510px;
     overflow: hidden;
@@ -175,7 +175,7 @@ header {
     border-radius: 50px;
 }
 
-.image-box img{
+.image-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -185,7 +185,7 @@ header {
     font-size: 12px;
 }
 
-.about-section h1{
+.about-section h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
     font-size: 100px;
@@ -202,17 +202,17 @@ header {
 }
 
 @keyframes animate-gradient {
-    to{
+    to {
         background-position: 200%;
     }
 }
 
-.about-section h4{
+.about-section h4 {
     margin-top: 50px;
     margin-bottom: 0;
 }
 
-.about-section h5{
+.about-section h5 {
     margin-top: 5px;
     color: gray;
     max-width: 425px;
@@ -220,7 +220,7 @@ header {
     line-height: 25px;
 }
 
-.info-section{
+.info-section {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -228,27 +228,27 @@ header {
     margin-top: 100px;
 }
 
-.info-section h3{
+.info-section h3 {
     margin-bottom: 0;
 }
 
-.info-section p{
+.info-section p {
     margin-top: 5px;
     color: gray;
     max-width: 400px;
     line-height: 25px;
 }
 
-.info-cards{
+.info-cards {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
     width: 100%;
     height: 100%;
-     margin-top: 30px;
+    margin-top: 30px;
 }
 
-.card{
+.card {
     position: relative;
     width: auto;
     height: 40vh;
@@ -258,7 +258,7 @@ header {
     transition: 0.5s;
 }
 
-.card h1{
+.card h1 {
     position: absolute;
     margin: 0;
     top: 10px;
@@ -275,7 +275,7 @@ header {
     max-width: 250px;
 }
 
-.card p{
+.card p {
     position: absolute;
     top: 80px;
     left: 5%;
@@ -304,13 +304,13 @@ header {
     transition: 0.3s;
 }
 
-.card button:hover{
+.card button:hover {
     box-shadow: 0 0 15px lightgray;
     opacity: 0.7;
 }
 
-.card:hover{
-    box-shadow: 0 0 15px rgb(211, 211 , 211);
+.card:hover {
+    box-shadow: 0 0 15px rgb(211, 211, 211);
 }
 
 .card:nth-child(1) {
@@ -322,7 +322,7 @@ header {
     height: 83vh;
 }
 
-.contact-section{
+.contact-section {
     position: relative;
     width: 100%;
     margin-top: 100px;
@@ -330,18 +330,18 @@ header {
     flex-direction: column;
     align-items: center;
     height: 100%;
-     margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
-.contact-section .img1{
-   position: absolute;
-   top: 10%;
-   right: 20px;
-   height: 400px;
-   clip-path: polygon(38% 0, 94% 0, 77% 100%, 0% 100%);
+.contact-section .img1 {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    height: 400px;
+    clip-path: polygon(38% 0, 94% 0, 77% 100%, 0% 100%);
 }
 
-.contact-section .img2{
+.contact-section .img2 {
     position: absolute;
     left: 50px;
     top: 10px;
@@ -349,7 +349,7 @@ header {
     clip-path: polygon(33% 8%, 75% 0%, 100% 50%, 75% 100%, 35% 94%, 9% 54%);
 }
 
-.contact-section .img3{
+.contact-section .img3 {
     position: absolute;
     left: 5%;
     bottom: 5%;
@@ -358,11 +358,11 @@ header {
     clip-path: polygon(54% 3%, 100% 38%, 82% 100%, 32% 94%, 0% 38%);
 }
 
-.contact-section p{
+.contact-section p {
     margin-top: 100px;
 }
 
-.contact-section h1{
+.contact-section h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
     max-width: 550px;
@@ -375,7 +375,7 @@ header {
     animation: animate-gradient 2.5s linear infinite;
 }
 
-.contact-section button{
+.contact-section button {
     padding: 10px 25px;
     border: 1px solid gray;
     background-color: #0f1217;
@@ -386,12 +386,12 @@ header {
     transition: 0.3s;
 }
 
-.contact-section button:hover{
+.contact-section button:hover {
     box-shadow: 0 0 15px lightgray;
     opacity: 0.7;
 }
 
-.footer{
+.footer {
     width: 100%;
     display: flex;
     align-items: center;
@@ -401,17 +401,17 @@ header {
     height: 100px;
 }
 
-.footer p{
+.footer p {
     margin: 0 20px;
 }
 
-.footer ul{
+.footer ul {
     display: flex;
     list-style: none;
     margin-right: 140px;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: white;
     padding: 7px 7px;
@@ -421,7 +421,7 @@ header {
     margin: 0 10px;
 }
 
-.autoBlur{
+.autoBlur {
     animation: autoBlurAnimation linear both;
     animation-timeline: view();
 }
@@ -431,26 +431,27 @@ header {
         filter: blur(40px);
     }
 
-    40%,60%{
+    40%,
+    60% {
         filter: blur(0);
         transform: translateY(0px);
         opacity: 1;
     }
 
-    100%{
+    100% {
         filter: blur(40px);
         transform: translateY(-200px);
         opacity: 0;
     }
 }
 
-.autoTakeFull{
+.autoTakeFull {
     animation: autoTakeFullAnimation both;
     animation-timeline: view(70% 65%);
 }
 
-@keyframes autoTakeFullAnimation{
-    to{
+@keyframes autoTakeFullAnimation {
+    to {
         width: 100%;
         height: 100vh;
         border-radius: 0;
@@ -458,19 +459,101 @@ header {
     }
 }
 
-.autoDisplay{
+.autoDisplay {
     animation: autoDisplayAnimation both;
     animation-timeline: view(70% 5%);
 }
 
-@keyframes autoDisplayAnimation{
-    from{
+@keyframes autoDisplayAnimation {
+    from {
         opacity: 0;
         transform: translateY(200px) scale(0.3);
     }
 
-    to{
+    to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .head-left button {
+        display: none;
+    }
+
+    .head-right a {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    .hero-info {
+        left: 5%;
+    }
+
+    .hero-section h1 {
+        font-size: 90px;
+    }
+
+    .next-btn {
+        left: 25%;
+        top: 40%;
+    }
+
+    .about-section {
+        margin: 0;
+    }
+
+    .about-section h1 {
+        font-size: 50px;
+    }
+
+    .image-box{
+        width: 300px;
+        height: 500px;
+    }
+
+    .about-section h4, .about-section h5{
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .contact-section .img1{
+        width: 150px;
+        height: 200px;
+        right: 0;
+        top: 20px;
+    }
+
+    .contact-section .img2{
+        top: 30px;
+        left: -40px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-section .img3{
+        left: -40px;
+        bottom: 0;
+        width: 150px;
+        height: 180px;
+    }
+
+    .contact-section h1{
+        font-size: 60px;
+        max-width: 300px;
+    }
+
+    .footer p{
+        display: none;
+    }
+
+    .footer ul{
+        margin-left: 70px;
+    }
+
+
 }
