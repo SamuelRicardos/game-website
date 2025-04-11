@@ -170,6 +170,7 @@ header {
     z-index: 100;
     opacity: 0;
     transition: 0.5s;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .next-btn:hover {
